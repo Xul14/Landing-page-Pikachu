@@ -20,15 +20,24 @@ body{
     padding-top: var(--space-default);
     padding-right: var(--space-default);
     padding-bottom: 24px;
+    font-family: 'Righteous', cursive;
 }
 
 header{
-    background-color: turquoise;
     height: 48px;
-  
 }
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    text-decoration: none;
+    color: var(--secundary-color);
+    font-size: 2rem;
+}
+
 main{
-    background-color: violet; 
+    background-color:beige; 
     flex-grow: 1;
 }
 
