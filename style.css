@@ -75,11 +75,11 @@ main{
 
 .description__text{
     font-size: 1.2rem;
-    width: 490px;
+    width: 500px;
 }
 
 .action{
-    grid-column: 1/7;
+    grid-column: 7/-1;
     place-self: center end;
     height: 100px;
     width: 411px;
@@ -96,4 +96,12 @@ main{
 footer{
    text-align: center;
    color: var(--secundary-color);
+}
+
+.pikachu-image{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
 }
